@@ -1,0 +1,15 @@
+p,h1,li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo__body{
+    fill: darkorange;
+}
+.logo__text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rect--left{
+    fill: darkorange;
+}
+.rect--right{
+    fill: darkorange;
+}
