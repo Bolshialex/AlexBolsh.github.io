@@ -1,16 +1,34 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 250, 241);
+    background-color: rgb(214, 214, 214);
     
     margin: 0px 025px;
     
 }
-.logo__body{
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.grid-container{
+    place-content: center;
+}
+.intro-card{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+}
+.intro-card__img{
+    border-radius: 34px;
+    height: 50;
+    
+}
+/* .logo__body{
     fill: rgb(255, 213, 0);
 }
 .logo__text{
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 .rect--left{
     fill: darkorange;
     position:fixed;
