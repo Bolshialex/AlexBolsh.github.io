@@ -8,9 +8,16 @@ a,li{
     text-decoration: none;
     list-style-type: none;
     color: black;
+    
 }
 h1, p{
     margin: 25px 0px;
+}
+.uppr-bar{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    text-align: center;
+    
 }
 
 .intro-card{
