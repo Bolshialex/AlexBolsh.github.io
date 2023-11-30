@@ -2,16 +2,27 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(255, 250, 241);
     
+    margin: 0px 025px;
+    
 }
 .logo__body{
-    fill: darkorange;
+    fill: rgb(255, 213, 0);
 }
 .logo__text{
     font-family: Arial, Helvetica, sans-serif;
 }
 .rect--left{
     fill: darkorange;
+    position:fixed;
+    left: 70%;
+    bottom: 10%;
+    z-index: -7;
 }
 .rect--right{
     fill: darkorange;
+    position:fixed;
+    right: 65%;
+    top:30%;
+    z-index: -7;
+    z-index: -7;
 }
