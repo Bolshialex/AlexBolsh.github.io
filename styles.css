@@ -13,6 +13,11 @@ a{
 h1, p{
     margin: 25px 0px;
 }
+
+
+
+
+
 .nav{
     height: 50px;
     width: 70vw;
@@ -38,15 +43,20 @@ h1, p{
     left: 0;
     bottom: -5px;
     border-radius: 100px;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 .nav__link:hover:after{
     width: 100%;
     
 }
 .nav__link:hover{
-    color: black;
+    color: black;  
 }
+
+
+
+
+
 .intro-card{
     grid-column: span 2;
     grid-template-columns: repeat(2, 400px);
@@ -57,26 +67,35 @@ h1, p{
     width: 900px;
     display: grid;
     grid-column-gap: 100px;
-    
-    
     top: 50px;
     margin: auto;
 }
 .intro-card__img{
     border-radius: 34px;
     filter: drop-shadow(rgba(0, 0, 0, 0.623) 2rem 0.5rem 50px);
-    
+    transition: 1s;
+}
+.intro-card__img:hover{
+    transform: scale(1.1);
 }
 .intro-card__content-container{
     position: relative;
     bottom: -33%;
 } 
+
+
+
+
+
 .about-card__img{
     border-radius: 34px;
     height: 400px;
     position: relative;
     filter: drop-shadow(rgba(0, 0, 0, 0.623) -2rem -2rem 50px);
-
+    transition: 0.5s;
+}
+.about-card__img:hover{
+    transform: scale(1.1);
 }
 .about-card{
     display: grid;
@@ -94,45 +113,53 @@ h1, p{
     grid-column-gap: 150px;
     
 }
-
 .about-card__content-container{
     position: relative;
        
 } 
+
+
+
+
+
 .rect--left{
-    fill: rgb(196, 152, 98);
+    fill: rgb(235, 70, 70);
     position:fixed;
     left: 70%;
     bottom: 10%;
     z-index: -1;
 }
 .rect--right{
-    fill:rgb(99, 82, 183);
+    fill:rgb(210, 156, 106);
     position:fixed;
     right: 65%;
-    top:30%;
+    top:20%;
     z-index: -1;
 
     
 }
 .rect--bottom{
-    fill:rgb(176, 222, 115);
+    fill:rgb(97, 20, 19);
     position:fixed;
     left: 50%;
-    top:80%;
+    top:70%;
     z-index: -1;
 
     
 }
 .rect--top{
-    fill:rgb(92, 206, 198);
+    fill:rgb(224, 148, 104);
     position:fixed;
     right: 50%;
-    bottom:70%;
+    bottom:67%;
     z-index: -1;
 
     
 }
+
+
+
+
 
 @media (min-width: 1024px){
     h1{
