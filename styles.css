@@ -163,9 +163,15 @@ h1, p{
 
 
 
+.contact-card-linkedin{
+    text-align: center;
+    padding: 15px;
+}
 
-
-
+.contact-card-email {
+    text-align: center;
+    padding: 15px;
+}
 .contact-card__heading{
     text-align: center;
     margin: 250px 0px 0px;
@@ -188,7 +194,7 @@ h1, p{
 }
 .contact-card__button:hover{
     background-color: black;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 
