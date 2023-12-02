@@ -181,7 +181,7 @@ h1, p{
     text-align: left;
 }
 .contact-card__button{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     background-color: rgb(150, 150, 150);
     border-radius: 34px;
     font-family: 'Cabin', Helvetica, sans-serif;
@@ -195,6 +195,7 @@ h1, p{
 .contact-card__button:hover{
     background-color: black;
     transition: 0.3s;
+    color: white;
 }
 
 
