@@ -161,6 +161,51 @@ h1, p{
 
 
 
+
+
+
+
+
+.contact-card__heading{
+    text-align: center;
+    margin: 250px 0px 0px;
+    padding: 50px;
+}
+.contact-card{
+    text-align: left;
+}
+.contact-card__button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 150, 150);
+    border-radius: 34px;
+    font-family: 'Cabin', Helvetica, sans-serif;
+    padding: 10px 50px; 
+    border: none;
+}
+.contact-card__button:active{
+    transform: scale(0.9);
+    
+}
+.contact-card__button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1024px){
     h1{
         font-size: 70px;
