@@ -7,7 +7,7 @@ body{
 a{
     text-decoration: none;
     list-style-type: none;
-    color: rgb(150, 150, 150);
+    color: rgb(91, 91, 91);
     
     
 }
@@ -187,7 +187,7 @@ h1, p{
 }
 .contact-card__button{
     color: rgb(0, 0, 0);
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(91, 91, 91);
     border-radius: 34px;
     font-family: 'Cabin', Helvetica, sans-serif;
     padding: 10px 50px; 
@@ -205,19 +205,26 @@ h1, p{
 .contact-card svg{  
     filter: drop-shadow(rgba(0, 0, 0, 0.7) 0.5rem 0.5rem 10px);
 }
+.lang-svg{
+    display: inline-block;
+    filter: drop-shadow(rgba(0, 0, 0, 0.7) 0.2rem 0.2rem 10px);
+
+}
 
 
 
 
-
-
+.project-card__heading{
+    margin: 5vh 0px 0px;
+    padding: 50px;
+}
 .project-card-container{
     text-align: center;
     margin: 5vh 10vw 0px;
 }
 .project-github__button{
     color: rgb(0, 0, 0);
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(91, 91, 91);
     border-radius: 34px;
     font-family: 'Cabin', Helvetica, sans-serif;
     padding: 10px 50px; 
@@ -247,7 +254,7 @@ h1, p{
 
     }
     p{
-        font-size: 15px;
+        font-size: 20px;
         
         letter-spacing: 1.5px;
     }
