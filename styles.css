@@ -22,13 +22,11 @@ h1, p{
 .nav{
     text-align: center;
     height: 50px;
-    width: 70vw;
+    width: 50vw;
     min-width: 600px;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
-    margin: auto;
-    
+    justify-content:center;
 }
 .nav__link{
     position: relative;
@@ -36,6 +34,8 @@ h1, p{
     letter-spacing: 0.5px;
     top: 20px;
     padding: 0 10px;
+    margin: 0 10px;
+    text-align: center;
 }
 .nav__link::after{
     content: "";
@@ -45,12 +45,11 @@ h1, p{
     width: 0;
     left: 0;
     bottom: -5px;
-    border-radius: 100px;
+    border-radius: 10px;
     transition: 0.5s;
 }
 .nav__link:hover:after{
     width: 100%;
-    
 }
 .nav__link:hover{
     color: black;  
@@ -203,7 +202,9 @@ h1, p{
     transition: 0.3s;
     color: white;
 }
-
+.contact-card svg{  
+    filter: drop-shadow(rgba(0, 0, 0, 0.7) 0.5rem 0.5rem 10px);
+}
 
 
 
@@ -212,9 +213,25 @@ h1, p{
 
 .project-card-container{
     text-align: center;
-    margin: 5vh 600px 0px;
+    margin: 5vh 10vw 0px;
 }
-
+.project-github__button{
+    color: rgb(0, 0, 0);
+    background-color: rgb(150, 150, 150);
+    border-radius: 34px;
+    font-family: 'Cabin', Helvetica, sans-serif;
+    padding: 10px 50px; 
+    border: none;
+}
+.project-github__button:active{
+    transform: scale(0.9);
+    
+}
+.project-github__button:hover{
+    background-color: black;
+    transition: 0.3s;
+    color: white;
+}
 
 
 
