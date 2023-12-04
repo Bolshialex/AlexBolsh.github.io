@@ -1,13 +1,10 @@
-html{
-    width: 100%;
-    height: 100%;
-}
+
 body{
     font-family: 'Cabin', Helvetica, sans-serif;
     background-color: rgb(255, 226, 196);
     
-    position: relative;
-    width: 100%;
+    
+    
 }
 a{
     text-decoration: none;
@@ -35,13 +32,16 @@ footer p{
 
 
 
+
+
+
 .nav{
     text-align: center;
     height: 50px;
-    width: 40vw;
+    width: 50vw;
     display: flex;
     align-items:center;
-    justify-content:space-around;
+    justify-content:space-between;
     margin: auto;
     
 }
@@ -71,6 +71,10 @@ footer p{
 .nav__link:hover{
     color: black;  
 }
+
+
+
+
 
 
 
@@ -107,6 +111,10 @@ footer p{
     text-align: center;
     width: 100%;
 }
+
+
+
+
 
 
 
@@ -161,6 +169,13 @@ footer p{
 }
 
 
+
+
+
+
+
+
+
 .rect--right{
     fill: rgb(235, 70, 70);
     position:fixed;
@@ -174,8 +189,6 @@ footer p{
     right: 65%;
     top:20%;
     z-index: -7;
-
-    
 }
 .rect--bottom{
     fill:rgb(97, 20, 19);
@@ -183,8 +196,6 @@ footer p{
     left: 50%;
     top:70%;
     z-index: -7;
-
-    
 }
 .rect--top{
     fill:rgb(190, 120, 79);
@@ -192,9 +203,11 @@ footer p{
     right: 50%;
     bottom:67%;
     z-index: -7;
-
-    
 }
+
+
+
+
 
 
 
@@ -247,6 +260,14 @@ footer p{
     
 }
 
+
+
+
+
+
+
+
+
 .contact-card__form{
     display: flex;
     flex-direction: column;
@@ -284,6 +305,13 @@ footer p{
 }
 
 
+
+
+
+
+
+
+
 .project-card__heading{
     margin: 5vh 0px 0px;
     padding: 50px;
@@ -309,6 +337,10 @@ footer p{
     transition: 0.3s;
     color: white;
 }
+
+
+
+
 
 
 
@@ -426,9 +458,7 @@ footer p{
     .contact-card__form{
         width: 400px;
     }
-    .nav__link{
-        left: 25px;
-    }
+    
 
     .services-container__grid{
         display: grid;
