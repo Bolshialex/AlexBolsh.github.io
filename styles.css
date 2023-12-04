@@ -2,7 +2,7 @@
 body{
     font-family: 'Cabin', Helvetica, sans-serif;
     background-color: rgb(255, 226, 196);
-    
+    overflow: hidden;
     
     
 }
