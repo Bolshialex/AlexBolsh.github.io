@@ -2,9 +2,6 @@
 body{
     font-family: 'Cabin', Helvetica, sans-serif;
     background-color: rgb(255, 226, 196);
-    
-    
-    
 }
 a{
     text-decoration: none;
@@ -17,7 +14,6 @@ h1, p, h2{
     margin: 25px 25px;
     padding: 10px 35px;
     letter-spacing: 1.5px;
-
 }
 footer{
     text-align: center;
@@ -293,6 +289,7 @@ footer p{
     font-family: 'Cabin', Helvetica, sans-serif;
     padding: 10px 50px; 
     border: none;
+    font-size: 20px;
 }
 .contact-card__button:active{
     transform: scale(0.9);
@@ -327,6 +324,7 @@ footer p{
     font-family: 'Cabin', Helvetica, sans-serif;
     padding: 10px 50px; 
     border: none;
+    font-size: 20px;
 }
 .project-github__button:active{
     transform: scale(0.9);
